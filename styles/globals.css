@@ -18,3 +18,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.top-loading {
+  animation: fill-bar 3s ease-in-out;
+}
+
+@keyframes fill-bar {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
